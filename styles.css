@@ -1,0 +1,57 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* NAV MENU */
+
+nav {
+    background-color:pink;
+    -webkit-box-shadow: 1px 12px 15px -5px #000000; 
+    box-shadow: 1px 12px 15px -9px #000000;
+}
+
+.flex {
+    display: flex;
+    height: 3rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:hover{
+    color: brown;
+}
+
+
+
+/* BACKGROUND COLOR */
+
+.container {
+    width: 60%;
+    margin: 6rem auto;
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
