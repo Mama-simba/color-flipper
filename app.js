@@ -17,5 +17,6 @@ function changeColor(event){
 function getRandomNumber(){
     // Get random number between 0 - 3, as we have 4 colors in the array
     return Math.floor(Math.random() * 4);
-
 }
+
+

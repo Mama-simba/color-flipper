@@ -12,7 +12,7 @@ html {
 /* NAV MENU */
 
 nav {
-    background-color:#FBE5E5;
+    background-color:rgba(255, 255, 255, 0.6);
     -webkit-box-shadow: 1px 12px 15px -5px #000000; 
     box-shadow: 1px 12px 15px -9px #000000;
 }
@@ -39,13 +39,14 @@ li {
     padding: 0 1rem;
 }
 
-a {
+li > a {
     text-decoration: none;
     color: cornflowerblue;
+    text-shadow: 2px 0px 0px rgba(252, 251, 251, 0.6);
 }
 
 a:hover{
-    color: #FFA1C9;
+    color: #000000;
 }
 
 
@@ -53,24 +54,26 @@ a:hover{
 /* BACKGROUND COLOR */
 
 .container {
-    width: 60%;
-    margin: 10rem auto;
+    width: 40%;
+    margin: 10rem auto 2rem auto;
     padding: 1.5rem;
     border-radius: 5px;
     text-align: center;
     -webkit-box-shadow: 0px 0px 15px 3px #5c5a5a; 
     box-shadow: 0px 0px 15px 3px #5c5a5a;
-    background-color: #FBE5E5;
-    color: #212121;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: cornflowerblue;
 }
 
-span {
-    color: cornflowerblue;
+.color {
+    color: #212121;
+    text-shadow: 2px 3px 0px rgba(202, 200, 200, 0.6);
 
 }
 
 button {
-    margin: 1rem 0;
+    display: block;
+    margin: 0 auto;
     padding: 8px 12px;
     color:white;
     background-color: cornflowerblue; 
@@ -92,6 +95,7 @@ button:hover {
 /* FOOTER */
 
 footer {
+    color: black;
     text-align: center;
     margin-top: 15rem;
     font-size: 0.8rem; 
@@ -106,5 +110,5 @@ footer a {
 }
 
 footer a:hover {
-    color: pink; 
+    color: cornflowerblue; 
 }
