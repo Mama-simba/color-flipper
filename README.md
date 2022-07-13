@@ -31,7 +31,7 @@ Try to practise on your own, google and make mistakes. If you get very stuck, ha
 JavaScript concepts to learn and practise:
 
 - Arrays and array property length
-- Match.floor() and Math.random() methods
+- Math.floor() and Math.random() methods
 - Loops
 - DOM Manipulation: selectors, style modifiers, event listeners
 
